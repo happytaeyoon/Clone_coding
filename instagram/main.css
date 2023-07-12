@@ -1,0 +1,353 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.container{
+  display: flex;
+}
+.rogoimg{
+    width: 103px;
+    height: 29px;
+    padding: 30px 15px 16px;
+    margin: 0px 0px 15px;
+}
+.menu{
+  position: fixed;
+  border-right: 1px solid #DBDBDB;
+  padding: 8px 12px 20px 12px;
+  float: left;
+  width: 220px;
+  height: 100vh;
+  background-color: white;
+}
+.main{   
+  margin-left: 244px;
+  width:100%;
+  height: 4000px;
+  background-color: #FAFAFA;
+
+}
+.menulist{
+  width: 196px;
+  height: 24px;
+  display: flex;
+  padding: 12px;
+  margin: 8px 0px 8px;
+}
+.menulist>img{
+  width: 24px;
+  height: 24px;
+}
+.menulist>span{
+  flex-grow: 1;
+  padding: 0 0 0 16px;
+  height: 22px;
+}
+.menulist:nth-last-child(1){
+  position: absolute;
+  bottom: 45px;
+}
+.main1{
+
+display:inline-block;
+background-color: #FAFAFA;
+width: 470px;
+height: 100%;
+margin: 10px 32px 0px 0px;
+}
+.main2{
+  margin: 0px 0px 30px;
+  padding: 30px 0px 0px;
+  display:inline-block;
+background-color: #FAFAFA;
+width: 319px;
+height: 100%;
+}
+.mainset{
+  display: flex;
+  height: 100%;
+  justify-content: center
+}
+.story{
+  display: flex;
+  overflow: scroll;
+  width: 470px;
+height:85px;
+padding: 16px 0px;
+border: 0.667px;
+margin: 21px 0 0 0;
+border: 1px solid #DBDBDB;
+border-radius: 10px;
+background-color: white;
+}
+.post{
+  
+  display: flex;
+  width: 470px;
+height:56px;
+border: 0.667px 0.667px 0 0;
+margin: 21px 0 0 0;
+border: 1px solid #DBDBDB;
+border-top-left-radius : 10px;
+border-top-right-radius : 10px;
+background-color: white;
+}
+.post_img{
+  width: 470px;
+  height:470px;
+}
+.introduce{
+width: 470px;
+height:147px;
+border: 1px solid #DBDBDB;
+background-color:  white;
+}
+
+.introduce_ment{
+border-bottom-left-radius : 10px;
+border-bottom-right-radius : 10px;
+  width: 470px;
+  height:49px;
+  border: 1px solid #DBDBDB;
+  background-color:  white;
+  }
+
+.my_profile{
+  background-color: #FAFAFA;
+  width: 100%;
+  height: 66px;
+  margin: 16px 0 10px;
+  align-items: center;
+  display: flex 
+  
+}
+.name_profile{
+  width: 221px;
+  height: 36px;
+  align-items: center;
+}
+
+.recomend_name_profile{
+  width: 223px;
+  height: 34px;
+  align-items: center;
+}
+.name_nick{
+display: block;
+font-size: 14px;
+padding-left: 15px;
+font-weight: 500;
+}
+.recomend_name_nick{
+  display: block;
+  font-size: 14px;
+  padding-left: 7px;
+  font-weight: 500;
+  }
+.name{
+  display: block;
+  font-size: 14px;
+  padding-left: 15px;
+  color: #737373;
+}
+.recomend_name{
+  color: gray;
+  display: block;
+  font-size: 12px;
+  padding-left: 7px;
+}
+.recomend{
+  
+box-sizing: border-box;
+  background-color: #FAFAFA;
+  width: 100%;
+  height: 19px;
+  padding: 4px 0px;
+}
+
+.recomend_friend{
+  display: flex;
+box-sizing: border-box;
+background-color: #FAFAFA;
+  width: 100%;
+  height: 50px;
+  padding: 8px 0px;
+}
+.friend{
+  padding: 8px 0 17px 0;
+}
+.my_profile>img{
+  width: 56px;
+  height: 56px;
+}
+.recomend_friend>img{
+  width: 32px;
+  height: 32px;
+  margin:  0 0 0 5px;
+}
+.text{
+  font-size: 12px;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  color: #0096f5;
+  font-weight: 800;
+}
+.recomend_text1{
+  
+font-weight: 550;
+  float: left;
+font-size: 14px;
+color: #737373;
+}
+.recomend_text2{
+  
+  float: right;
+  font-size: 12px;
+color: #000000;
+font-weight: 800;
+}
+.meta{
+  margin-top: 40px;
+}
+.ment{
+  color: #c7c7c7;
+  font-size: 12px;
+  padding: 0;
+  list-style-type: none;
+list-style: none;
+  display: flex;
+  flex-direction : row;
+  flex-wrap : wrap
+}
+.ment > li{
+  margin: 3px;
+}
+.story_profile{
+width: 64px;
+height: 84px;
+font-size: 12px;
+margin-right: 12px;
+
+  text-align: center;
+}
+.story_profile_text>span{
+  margin: 0 auto;
+}
+
+.story_profile>img{
+  width: 66px;
+  height: 66px;
+}
+#taeyoon_profile{
+  width: 66px;
+  height: 66px;
+font-size: 12px;
+}
+.story_blank{
+  margin-left: 12px;
+}
+.post>img{
+height: 32px;
+width: 32px;
+}
+.post_profile{
+  margin: 10px;
+}
+.post_text{
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.more_img{
+  width: 100%;
+  height: 100%;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.more{
+  width: 22px;
+  height: 22px;
+  float: right;
+  margin-right: 10px;
+}
+.introduce>span>img{
+  width: 28px;
+  height: 28px;
+}
+.save1{
+  
+  float: left;
+  margin: 10px 0 0 10px;
+}
+.save{
+  float: right;
+  margin: 10px 10px;
+}
+.likelist{
+  box-sizing: border-box;
+  height: 24px;
+  width: 100%;
+  margin-top: 52px;
+  padding: 0 12px ;
+}
+.likelist>section>img{
+  height: 22px; margin-right:5px
+}
+.likelist_text{
+  font-size: 14px;
+  position: relative;
+  bottom: 5px;
+}
+.likelist_text_bold{
+  font-weight: 600;
+}
+.explanation{
+  margin-top: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+}
+.explanation_name{
+  display: block;
+}
+.explanation_more{
+  color: gray;
+  margin-left: 5px;
+  display: block;
+}
+.explanation_time{
+  color: gray;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.introduce_ment_emoji{
+  width: 28px;
+  height: 28px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.introduce_ment_comment{
+  position: relative;
+  bottom: 8px;
+  color: gray;
+  font-size: 14px;
+}
+.introduce_ment_post{
+  position: relative;
+  top: 15px;
+  right: 12px;
+  font-weight: 600;
+  float: right;
+  color: #AAC9FF;
+  font-size: 14px;
+}
+.story_button{
+  position: relative;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+}
